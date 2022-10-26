@@ -12,7 +12,7 @@ public class Main {
 
             //Задача 3
 
-            double number1 = 200;
+            double number1 = 199;
             double averageSum = number1 / arr.length - 1;
             System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", averageSum);
     }}}
