@@ -10,6 +10,11 @@ public class Main {
             System.out.printf("Минимальная сумма трат за день составила %d рублей.", arr[0]);
             System.out.printf("Максимальная сумма трат за день составила %d рублей.", arr[arr.length - 1]);
 
+            //Задача 3
+
+            double number1 = 200;
+            double averageSum = number1 / arr.length - 1;
+            System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", averageSum);
     }}}
 
 
