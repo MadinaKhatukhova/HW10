@@ -1,3 +1,5 @@
+import java.io.PrintStream;
+
 public class Main {
 public static void main(String[] args) {
     //Задача 1
@@ -20,6 +22,17 @@ public static void main(String[] args) {
             max = array[i];
             System.out.println("Максимальная сумма трат за день составила " + max + " рублей");
 
-    //Задача 2
+            //Задача 3
+            double average = sum / arr.length;
+            System.out.printf("Средняя сумма трат за месяц составила %.2f рублей\n", average);
 
-}}}}}
+            //Задача 4
+
+            char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+            for (int c = reverseFullName.length - 1; c >= 0; c--) {
+                System.out.print(reverseFullName[c]);
+            }
+        }
+
+
+        }}}}
